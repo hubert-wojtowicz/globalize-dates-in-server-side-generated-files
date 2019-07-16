@@ -1,0 +1,14 @@
+[
+  {
+    "UserAccount": "Jan Kowalski",
+    "ChangeValue": -20,
+    "ChangeDateTime": "2019-01-01T13:34:22.141Z",
+    "ChangeSourceOrTarget": "Roman Szafarski"
+  },
+  {
+    "UserAccount": "Jan Kowalski",
+    "ChangeValue": 55,
+    "ChangeDateTime": "2019-02-01T13:34:22.141Z",
+    "ChangeSourceOrTarget": "Eugeniusz Kaczor"
+  }
+]
