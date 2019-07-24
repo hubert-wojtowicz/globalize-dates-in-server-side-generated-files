@@ -11,7 +11,7 @@ namespace globalize_dates_in_server_side_generated_files
         public TimeZoneService(IHttpContextAccessor httpContextAccessor)
         {
             _httpContextAccessor = httpContextAccessor;
-            IanaRequestTimeZoneName = _httpContextAccessor.HttpContext.Request.Headers["Accept-Timezone"];
+            IanaRequestTimeZoneName = _httpContextAccessor.HttpContext.Request.Headers["Accept-IANA-Timezone"];
             RequestTimeZoneInfo = TimeZoneInfoFactory(IanaRequestTimeZoneName);
         }
 
